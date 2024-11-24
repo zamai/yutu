@@ -48,7 +48,7 @@ Download this credential to your local machine with name `client_secret.json`, i
 To verify this credential, run the following command
 
 ```shell
-❯ yutu auth --credential client_secret.json
+  yutu auth --credential client_secret.json
 ```
 
 A browser window will open asking for your permission to access your YouTube account, after granting the permission, a token will be generated and saved to `youtube.token.json`.
@@ -73,21 +73,21 @@ There are two actions available for yutu, one is for general purpose and the oth
 ### Docker
 
 ```shell
-❯ docker pull ghcr.io/eat-pray-ai/yutu:latest
-❯ docker run --rm ghcr.io/eat-pray-ai/yutu:latest
+  docker pull ghcr.io/eat-pray-ai/yutu:latest
+  docker run --rm ghcr.io/eat-pray-ai/yutu:latest
 ```
 
 ### Gopher
 
 ```shell
-❯ go install github.com/eat-pray-ai/yutu@latest
+  go install github.com/eat-pray-ai/yutu@latest
 ```
 
 ### Linux
 
 ```shell
-❯ curl -sSfL https://github.com/eat-pray-ai/yutu/releases/latest/download/yutu-linux-$(uname -m) -o /usr/local/bin/yutu
-❯ chmod +x /usr/local/bin/yutu
+  curl -sSfL https://github.com/eat-pray-ai/yutu/releases/latest/download/yutu-linux-$(uname -m) -o /usr/local/bin/yutu
+  chmod +x /usr/local/bin/yutu
 ```
 
 ### macOS
@@ -95,14 +95,14 @@ There are two actions available for yutu, one is for general purpose and the oth
 Homebrew is not available since this repository is not notable enough, star this repository to make it available on Homebrew.
 
 ```shell
-❯ curl -sSfL https://github.com/eat-pray-ai/yutu/releases/latest/download/yutu-darwin-$(uname -m) -o /usr/local/bin/yutu
-❯ chmod +x /usr/local/bin/yutu
+  curl -sSfL https://github.com/eat-pray-ai/yutu/releases/latest/download/yutu-darwin-$(uname -m) -o /usr/local/bin/yutu
+  chmod +x /usr/local/bin/yutu
 ```
 
 ### Windows
 
 ```shell
-❯ winget install yutu
+  winget install yutu
 ```
 
 ### Verifying Installation
@@ -111,19 +111,19 @@ Verify the integrity and provenance of `yutu` using its associated cryptographic
 
 ```shell
 # Docker
-❯ gh attestation verify oci://ghcr.io/eat-pray-ai/yutu:latest --repo eat-pray-ai/yutu
+  gh attestation verify oci://ghcr.io/eat-pray-ai/yutu:latest --repo eat-pray-ai/yutu
 
 # macOS and Linux
-❯ gh attestation verify $(which yutu) --repo eat-pray-ai/yutu
+  gh attestation verify $(which yutu) --repo eat-pray-ai/yutu
 
 # Windows
-❯ gh attestation verify $(where.exe yutu.exe) --repo eat-pray-ai/yutu
+  gh attestation verify $(where.exe yutu.exe) --repo eat-pray-ai/yutu
 ```
 
 ## Usage
 
 ```shell
-❯ yutu help
+  yutu help
 yutu is a fully functional CLI for YouTube, which can be used to manupulate YouTube videos, playlists, channels, etc.
 
 Usage:
