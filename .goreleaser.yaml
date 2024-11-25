@@ -53,23 +53,6 @@ checksum:
     - yutu
     - source
 
-changelog:
-  use: github
-  sort: ""
-  abbrev: 0
-  groups:
-    - title: "Features"
-      regexp: "^.*?:sparkles:.+"
-      order: 0
-    - title: "Bug Fixes"
-      regexp: "^.*?:bug:.+"
-      order: 1
-    - title: "Documentation"
-      regexp: "^.*?:memo:.+"
-      order: 2
-    - title: "Others"
-      order: 3
-
 release:
   discussion_category_name: General
 
