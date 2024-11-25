@@ -1,7 +1,7 @@
 package video
 
 import (
-	"github.com/eat-pray-ai/yutu/cmd"
+	"github.com/zamai/yutu/cmd"
 
 	"github.com/spf13/cobra"
 )

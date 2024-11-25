@@ -86,7 +86,7 @@ go install github.com/eat-pray-ai/yutu@latest
 ### Linux
 
 ```shell
-curl -sSfL https://github.com/eat-pray-ai/yutu/releases/latest/download/yutu-linux-$(uname -m) -o /usr/local/bin/yutu
+curl -sSfL https://github.com/zamai/yutu/releases/latest/download/yutu-linux-$(uname -m) -o /usr/local/bin/yutu
 chmod +x /usr/local/bin/yutu
 ```
 
@@ -95,7 +95,7 @@ chmod +x /usr/local/bin/yutu
 Homebrew is not available since this repository is not notable enough, star this repository to make it available on Homebrew.
 
 ```shell
-curl -sSfL https://github.com/eat-pray-ai/yutu/releases/latest/download/yutu-darwin-$(uname -m) -o /usr/local/bin/yutu
+curl -sSfL https://github.com/zamai/yutu/releases/latest/download/yutu-darwin-$(uname -m) -o /usr/local/bin/yutu
 chmod +x /usr/local/bin/yutu
 ```
 

@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
 )
 
 var (

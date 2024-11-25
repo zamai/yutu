@@ -1,9 +1,9 @@
 package channelBanner
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/channelBanner"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/channelBanner"
 )
 
 var insertCmd = &cobra.Command{

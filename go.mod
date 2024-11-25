@@ -1,4 +1,4 @@
-module github.com/eat-pray-ai/yutu
+module github.com/zamai/yutu
 
 go 1.23.1
 

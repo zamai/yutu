@@ -3,14 +3,14 @@ package video
 import (
 	"errors"
 	"fmt"
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/playlistItem"
-	"github.com/eat-pray-ai/yutu/pkg/thumbnail"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/playlistItem"
+	"github.com/zamai/yutu/pkg/thumbnail"
 	"log"
 	"os"
 	"slices"
 
-	"github.com/eat-pray-ai/yutu/pkg/utils"
+	"github.com/zamai/yutu/pkg/utils"
 	"google.golang.org/api/youtube/v3"
 )
 

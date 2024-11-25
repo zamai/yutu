@@ -1,9 +1,9 @@
 package membershipsLevel
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/membershipsLevel"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/membershipsLevel"
 )
 
 var listCmd = &cobra.Command{

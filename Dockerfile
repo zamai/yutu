@@ -3,7 +3,7 @@ ARG commit
 ARG commitDate
 ARG version
 
-ENV MOD="github.com/eat-pray-ai/yutu/cmd"
+ENV MOD="github.com/zamai/yutu/cmd"
 WORKDIR /app
 COPY . .
 

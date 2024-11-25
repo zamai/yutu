@@ -1,9 +1,9 @@
 package channelSection
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/channelSection"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/channelSection"
 )
 
 var deleteCmd = &cobra.Command{

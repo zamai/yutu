@@ -1,9 +1,9 @@
 package i18nLanguage
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/i18nLanguage"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/i18nLanguage"
 )
 
 var listCmd = &cobra.Command{

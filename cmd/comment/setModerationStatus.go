@@ -1,9 +1,9 @@
 package comment
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/comment"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/comment"
 )
 
 var setModerationStatusCmd = &cobra.Command{

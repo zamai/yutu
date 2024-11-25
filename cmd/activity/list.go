@@ -1,9 +1,9 @@
 package activity
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/activity"
-	"github.com/eat-pray-ai/yutu/pkg/auth"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/activity"
+	"github.com/zamai/yutu/pkg/auth"
 )
 
 var listCmd = &cobra.Command{

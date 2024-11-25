@@ -1,9 +1,9 @@
 package i18nRegion
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/i18nRegion"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/i18nRegion"
 )
 
 var listCmd = &cobra.Command{

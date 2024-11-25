@@ -1,8 +1,8 @@
 package superChatEvent
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/superChatEvent"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/superChatEvent"
 )
 
 var listCmd = &cobra.Command{

@@ -11,7 +11,7 @@ var (
 	CommitDate = ""
 	Os         = ""
 	Arch       = ""
-	repo       = "https://github.com/eat-pray-ai/yutu"
+	repo       = "https://github.com/zamai/yutu"
 )
 
 var versionCmd = &cobra.Command{

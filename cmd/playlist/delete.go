@@ -1,9 +1,9 @@
 package playlist
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/playlist"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/playlist"
 )
 
 var deleteCmd = &cobra.Command{

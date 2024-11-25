@@ -1,8 +1,8 @@
 package channelSection
 
 import (
-	"github.com/eat-pray-ai/yutu/cmd"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/cmd"
 )
 
 var (

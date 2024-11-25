@@ -1,9 +1,9 @@
 package thumbnail
 
 import (
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/thumbnail"
 	"github.com/spf13/cobra"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/thumbnail"
 )
 
 var setCmd = &cobra.Command{

@@ -3,8 +3,8 @@ package commentThread
 import (
 	"errors"
 	"fmt"
-	"github.com/eat-pray-ai/yutu/pkg/auth"
-	"github.com/eat-pray-ai/yutu/pkg/utils"
+	"github.com/zamai/yutu/pkg/auth"
+	"github.com/zamai/yutu/pkg/utils"
 	"google.golang.org/api/youtube/v3"
 	"log"
 )
